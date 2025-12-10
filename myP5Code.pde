@@ -8,12 +8,15 @@ void setup() {
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
   fill(255,255,255);
-  strokeWeight(1);
+  strokeWeight(2);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
-  
+quad(308, 101, 296, 175, 205, 175, 282, 85)  
+ellipse(299, 81, 45, 45)
+ellipse(302, 78, 10, 10)
+ellipse(302, 78, 2, 2)
+triangle(320, 80, 338, 90, 317, 91)
 
-  
 
 }
 
