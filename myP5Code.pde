@@ -11,12 +11,25 @@ void draw(){
   strokeWeight(2);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
+//neck
 quad(308, 101, 296, 175, 205, 175, 282, 85)  
+//head
 ellipse(299, 81, 45, 45)
+//eye
 ellipse(302, 78, 10, 10)
 ellipse(302, 78, 2, 2)
+//beak
 triangle(320, 80, 338, 90, 317, 91)
-
+//body
+rotate(-.3)
+ellipse(150, 260, 160, 110)
+ellipse(145, 255, 130, 80)
+ellipse(30, 295, 150, 20)
+rotate(.3)
+//tail
+triangle(144, 210, 210, 260, 63, 275 )
+//Feets
+rect(190, 265, 15, 13)
 
 }
 
