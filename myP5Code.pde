@@ -8,7 +8,8 @@ void setup() {
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
   fill(255,255,255);
-  strokeWeight(2);
+  strokeWeight(0);
+  noStroke()
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
 //neck
@@ -23,30 +24,53 @@ fill(171, 143, 77)
 ellipse(302, 78, 10, 10)
 
 //pupil
+strokeWeight(2)
+stroke(0,0,0)
 ellipse(302, 78, 2, 2)
 
 //beak
+strokeWeight(0)
+noStroke()
 fill(176, 195, 214)
 triangle(321, 80, 338, 95, 317, 93)
+fill(232, 239, 250)
+ellipse(321, 87, 8, 13)
 
 //body
+fill(124, 144, 163)
 rotate(-.3)
 ellipse(150, 260, 160, 110)
+
  //wing
  fill(157, 185, 199)
 ellipse(145, 255, 130, 80)
+
+//bars
+strokeWeight(10)
+stroke(58, 59, 61)
+line(112, 222, 178, 288)
+line(90, 240, 145, 292)
+
+//bottomtail
+fill(58, 59, 61)
+strokeWeight(0)
+noStroke()
 ellipse(30, 295, 150, 20)
 rotate(.3)
 
 //tail
+fill(95, 100, 107)
 triangle(144, 210, 210, 260, 63, 275 )
 
 //pants
-rect(195, 263, 15, 16)
-rect(215, 260, 15, 16)
+fill(124, 144, 163)
+rect(195, 262, 15, 16)
+rect(215, 259, 15, 16)
 
 //feets
-line(202, 278, 215, 300)
+strokeWeight(4)
+stroke()
+line(202, 280, 215, 300)
 line(225, 277, 235, 297)
 line(203, 305, 213, 300)
 line(220, 315, 215, 300)
