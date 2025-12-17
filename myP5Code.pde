@@ -12,21 +12,28 @@ void draw(){
   noStroke()
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
+
+//shadow
+fill(218, 224, 227)
+ellipse(190, 302, 280, 40)
+
 //neck
-fill(124, 144, 163)
-quad(308, 101, 296, 175, 205, 175, 282, 85) 
+fill(107, 129, 143)
+quad(308, 101, 298, 187, 195, 177, 282, 89) 
 
 //head
 ellipse(299, 81, 45, 45)
 
 //eye
 fill(171, 143, 77)
-ellipse(302, 78, 10, 10)
+ellipse(302, 78, 9, 9)
 
 //pupil
 strokeWeight(2)
 stroke(0,0,0)
 ellipse(302, 78, 2, 2)
+stroke(247, 251, 252)
+ellipse(304, 76, .5, .5)
 
 //beak
 strokeWeight(0)
@@ -35,9 +42,14 @@ fill(176, 195, 214)
 triangle(321, 80, 338, 95, 317, 93)
 fill(232, 239, 250)
 ellipse(321, 87, 8, 13)
+strokeWeight(3)
+stroke(69, 81, 89)
+line(319, 92, 334, 95)
 
 //body
-fill(124, 144, 163)
+strokeWeight(0)
+noStroke()
+fill(107, 129, 143)
 rotate(-.3)
 ellipse(150, 260, 160, 110)
 
@@ -58,26 +70,38 @@ noStroke()
 ellipse(30, 295, 150, 20)
 rotate(.3)
 
+//pants
+strokeWeight(0)
+noStroke()
+fill(107, 129, 143)
+rect(195, 260, 15, 16, 50)
+fill(72, 95, 107)
+rect(215, 256, 15, 16, 50)
+
 //tail
 fill(95, 100, 107)
-triangle(144, 210, 210, 260, 63, 275 )
-
-//pants
-fill(124, 144, 163)
-rect(195, 262, 15, 16)
-rect(215, 259, 15, 16)
+triangle(144, 210, 210, 260, 63, 275)
+strokeWeight(3)
+stroke(58, 59, 61)
+line(94, 263, 157, 235)
+line(135, 245, 178, 250)
 
 //feets
 strokeWeight(4)
-stroke()
-line(202, 280, 215, 300)
-line(225, 277, 235, 297)
+stroke(212, 135, 110)
+line(202, 278, 215, 300)
 line(203, 305, 213, 300)
 line(220, 315, 215, 300)
 line(232, 313, 215, 300)
 line(229, 300, 215, 300)
+stroke(156, 79, 53)
+line(223, 274, 235, 297)
 line(243, 305, 235, 297)
 line(256, 299, 235, 297)
+
+textSize(30)
+fill(0, 0, 0)
+text("Pigeon", 155, 365)
 
 }
 
