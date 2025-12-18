@@ -46,6 +46,14 @@ strokeWeight(3)
 stroke(69, 81, 89)
 line(319, 92, 334, 95)
 
+//pants
+strokeWeight(0)
+noStroke()
+fill(107, 129, 143)
+rect(195, 260, 15, 16, 50)
+fill(72, 95, 107)
+rect(215, 256, 15, 16, 50)
+
 //body
 strokeWeight(0)
 noStroke()
@@ -60,8 +68,10 @@ ellipse(145, 255, 130, 80)
 //bars
 strokeWeight(10)
 stroke(58, 59, 61)
-line(112, 222, 178, 288)
-line(90, 240, 145, 292)
+line(115, 224, 120, 240)
+line(120, 240, 170, 287)
+line(97, 233, 103, 265)
+line(103, 265, 143, 290)
 
 //bottomtail
 fill(58, 59, 61)
@@ -70,15 +80,11 @@ noStroke()
 ellipse(30, 295, 150, 20)
 rotate(.3)
 
-//pants
-strokeWeight(0)
-noStroke()
-fill(107, 129, 143)
-rect(195, 260, 15, 16, 50)
-fill(72, 95, 107)
-rect(215, 256, 15, 16, 50)
+
 
 //tail
+strokeWeight(0)
+noStroke()
 fill(95, 100, 107)
 triangle(144, 210, 210, 260, 63, 275)
 strokeWeight(3)

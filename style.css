@@ -19,7 +19,7 @@ html{
 
 #myCanvas {
   border-radius: 30px;
-  border: 15px double rgb(0, 0, 0);
+  border: 15px dotted rgb(88, 32, 32);
 }
 
 .container{
@@ -37,17 +37,25 @@ html{
   width: 400px;
   object-fit: cover;
   border-radius: 30px;
-  border: 15px double rgb(0, 0, 0);
+  border: 15px dotted rgb(88, 32, 32);
 }
 
 h2{
-  color: black;
+  color: rgb(12, 11, 12);
 }
 
 #start{
-  text-align: left;
+  text-align: center;
+   font-family: "New Rocker", system-ui;
 }
 
 #end{
-  text-align: right;
+  text-align: center;
+   font-family: "New Rocker", system-ui;
+}
+
+.new-rocker-regular {
+  font-family: "New Rocker", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
